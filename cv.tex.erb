@@ -1,0 +1,92 @@
+<%
+  require 'yaml'
+  require 'date'
+  class Job
+    def initialize(yaml)
+      @yaml = yaml
+    end
+
+    def date(name)
+      Date.parse(@yaml[name]).strftime("%b %Y")
+    rescue
+      @yaml[name]
+    end
+
+    def method_missing(name)
+      @yaml[name.to_s]
+    end
+  end
+  jobs = YAML.load_file('history.yml')['jobs'].map(&Job.method(:new)).reverse
+  skills = jobs.flat_map(&:skills).uniq
+  stacks = jobs.flat_map(&:stack).map { |s| s.gsub('#', '\#') }.uniq
+%>
+\documentclass[letterpaper]{deedy-resume}
+
+\begin{document}
+
+\lastupdated
+
+\namesection{Jamie}{Klassen}{
+\urlstyle{same}\url{http://jamieklassen.com} \\ 
+\href{mailto:michigan.j.frog@gmail.com}{michigan.j.frog@gmail.com} | 647.206.4576}
+
+\begin{minipage}[t]{0.33\textwidth}
+
+\section{Education} 
+\subsection{University of Waterloo}
+
+\descript{BMath in Pure Mathematics}
+\location{May 2014 - Aug 2015 | Waterloo, ON}
+
+\sectionspace
+
+\subsection{McGill University}
+
+\descript{BA, Joint Honours Math and Computer Science (partial)}
+\location{Sept 2010 - Oct 2013 | Montreal, QC \\ Cum. GPA: 3.96}
+
+\sectionspace
+
+\section{Links} 
+
+Github:// \href{https://github.com/jamieklassen}{\bf jamieklassen} \\
+LinkedIn:// \href{https://ca.linkedin.com/in/jamie-klassen-461711b0}
+{\bf jamie-klassen-461711b0} \\
+
+\sectionspace
+
+\section{Skills}
+
+\location{Technologies:}
+<%= stacks.join(' \textbullet{} ') %>
+\sectionspace
+
+\location{Practices:}
+<%= skills.join(' \textbullet{} ') %>
+\sectionspace
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+\section{Experience}
+
+<% jobs.each do |job| %>
+\runsubsection{<%= job.employer %>}
+\descript{| <%= job.title %>}
+
+\location{<%= job.date('start_date') %> – <%= job.date('end_date') %> | <%= job.location %>}
+<%= job.description %>
+\vspace{\topsep}
+\begin{tightitemize}
+<% job.achievements.each do |ac| %>
+\item <%= ac %>
+<% end %>
+\end{tightitemize}
+
+\sectionspace
+<% end %>
+
+\end{minipage}
+
+\end{document}

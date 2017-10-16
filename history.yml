@@ -1,0 +1,150 @@
+jobs:
+- start_date: 01-05-2011 
+  end_date: 31-08-2011
+  location: Montreal, QC
+  employer: McGill University - DDMAL
+  title: Software Developer
+  description: |
+    Built a tool to correct errors in digital optical music recognition, and
+    contributed to an open source library of C++ bindings for an open XML
+    standard for encoding sheet music
+  stack: [C++, wxWidgets, Python, XML]
+  skills: 
+  - coding
+  - debugging
+  - working with legacy code
+  - testing
+  - working independently
+  - user interface design
+  - maintaining open source libraries
+  achievements:
+  - learned C++ on the fly
+  - single-handedly added a new feature to an unwieldy legacy desktop app
+  - cleaned over 2000 pages of optically-recognized music in a matter of weeks
+  - learned Python for the sake of generating C++ bindings for the MEI spec
+  references:
+  - Andrew Hankinson
+  - Ichiro Fujinaga
+- start_date: 01-07-2012
+  end_date: 30-09-2013
+  location: Montreal, QC
+  employer: McGill University - ISMI
+  title: Technical Consultant
+  description: |
+    Defined and implemented product requirements for researchers managing a
+    database of manuscripts and rich metadata associated to them.
+  stack: [Java, Python, Javascript]
+  skills: 
+  - interpreting client requirements
+  - product management
+  - remote collaboration
+  - web services/APIs
+  - unconventional programming models
+  - graph database semantics
+  achievements:
+  - rapidly iterated on Python/Django prototype for flexibly querying
+    graph database
+  - adapted and expanded an open source Javascript document viewer for
+    this particular academic use case
+  references:
+  - Andrew Hankinson
+  - Jamil Ragep
+- start_date: 01-07-2012
+  end_date: 30-09-2013
+  location: Montreal, QC
+  employer: McGill University - ELVIS Project
+  title: Software Developer
+  description: |
+    Created a framework for statistical analysis of music in Python, along with
+    a web interface.
+  stack: [Python, Javascript]
+  skills: 
+  - building a framework
+  - pair programming
+  - documentation
+  achievements:
+  - Adapted a set of isolated descriptions of music queries into a framework
+  - worked adaptively with a very non-technical client
+  references:
+  - Christopher Antila
+- start_date: 06-09-2016
+  end_date: 26-05-2017
+  location: Toronto, ON
+  employer: Pivotal Software - Pivotal Labs
+  title: Agile Software Engineer
+  description: |
+    Consulted with client developers in continuously delivering business value in
+    manageable iterations based on feedback from a product owner, via pair
+    programming, TDD, CI/CD automation and a mature cloud platform.
+  stack:
+  - Java
+  - Spring
+  - Concourse
+  - Cloud Foundry
+  - Linux
+  - Android
+  - Jenkins
+  - Javascript
+  - Docker
+  - Angular
+  - C#
+  - .NET Core
+  skills: 
+  - agile
+  - XP
+  - pair programming
+  - TDD
+  - consulting
+  - build
+  - test
+  - deployment
+  - automation
+  - CI/CD
+  - managing multiple deployments
+  - monolith to microservices
+  achievements:
+  - ramped up quickly on Java codebase, making contributions on the first day
+  - adapted a small web service into a Concourse resource for automatically
+    recommending commits for releases
+  - given an unmaintained predictive model engine, determined how to
+    treat its implementation as a black box while reverse engineering the available
+    code
+  - increased a team's release cadence from once per 6 months to once per week
+  references:
+  - Sam Ouimette
+  - Rebecca Putinski
+- start_date: 29-05-2017
+  end_date: present
+  location: Toronto, ON
+  employer: Pivotal Software - Cloud Foundry
+  title: Software Engineer
+  description: |
+    Maintained a tool for automatically determining open source licenses being
+    used in proprietary software.
+  stack:
+  - Ruby
+  - Rails
+  - BOSH
+  - AWS
+  - GCP
+  - VirtualBox
+  - Linux
+  - Cloud Foundry
+  - Go
+  - Java
+  - Spring
+  - Kubernetes
+  - Windows
+  - Powershell
+  skills: 
+  - managing multiple deployments
+  - BDD
+  - CI/CD
+  - maintaining open source libraries
+  achievements:
+  - ran migrations of millions of records in a highly available setting
+  - ramped up on Ruby to become an indispensable asset within a month
+  references:
+  - Ryan Collins
+  - Sameer Vohra
+  - Felix Reyn
