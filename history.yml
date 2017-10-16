@@ -144,6 +144,9 @@ jobs:
   achievements:
   - ran migrations of millions of records in a highly available setting
   - ramped up on Ruby to become an indispensable asset within a month
+  - learned BOSH in order to manage deployment of a large CI/CD system with
+    Vault alongside for secret management, running blue-green deploys with
+    smoke tests verifying integrations with an external Okta instance
   references:
   - Ryan Collins
   - Sameer Vohra

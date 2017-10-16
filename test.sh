@@ -2,11 +2,19 @@
 
 set -e
 
-uuid=$(uuidgen)
-tmpfile="$uuid.tex"
+if [ -z "$1" ]; then
+  filename=$(uuidgen)
+else
+  filename=$1
+fi
+
+tmpfile="$filename.tex"
 erb cv.tex.erb > $tmpfile
 ./build.sh $tmpfile
 rm $tmpfile
-pdffile="$uuid.pdf"
+pdffile="$filename.pdf"
 open $pdffile
-rm $pdffile "$uuid.aux" "$uuid.log" "$uuid.out"
+rm "$filename.aux" "$filename.log" "$filename.out"
+if [ -z "$1" ]; then
+  rm $pdffile
+fi
