@@ -5,10 +5,9 @@ jobs:
   employer: McGill University - DDMAL
   title: Software Developer
   description: |
-    Built a tool to correct errors in digital optical music recognition, and
-    contributed to an open source library of C++ bindings for an open XML
-    standard for encoding sheet music
-  stack: [C++, wxWidgets, Python, XML]
+    Built a tool to correct errors in optical music recognition, and
+    contributed to an open source library for digital sheet music.
+  stack: [C++, Python, XML]
   skills: 
   - coding
   - debugging
@@ -18,10 +17,10 @@ jobs:
   - user interface design
   - maintaining open source libraries
   achievements:
-  - learned C++ on the fly
-  - single-handedly added a new feature to an unwieldy legacy desktop app
-  - cleaned over 2000 pages of optically-recognized music in a matter of weeks
-  - learned Python for the sake of generating C++ bindings for the MEI spec
+  - cleaned over 2000 pages of optically-recognized music in a matter of weeks by
+    single-handedly adding a new feature to an unwieldy legacy desktop app in C++
+  - automated the generation of C++ library functions for handling an open
+    XML format for music encoding using a Python script that parsed the schema
   references:
   - Andrew Hankinson
   - Ichiro Fujinaga
@@ -31,8 +30,8 @@ jobs:
   employer: McGill University - ISMI
   title: Technical Consultant
   description: |
-    Defined and implemented product requirements for researchers managing a
-    database of manuscripts and rich metadata associated to them.
+    Defined and built tools for querying a graph database of
+    scientific manuscripts.
   stack: [Java, Python, Javascript]
   skills: 
   - interpreting client requirements
@@ -42,10 +41,8 @@ jobs:
   - unconventional programming models
   - graph database semantics
   achievements:
-  - rapidly iterated on Python/Django prototype for flexibly querying
-    graph database
-  - adapted and expanded an open source Javascript document viewer for
-    this particular academic use case
+  - facilitated an infinite variety of queries through a graph faceted search
+  - exposed valuable metadata by adding features to an existing document viewer
   references:
   - Andrew Hankinson
   - Jamil Ragep
@@ -55,16 +52,20 @@ jobs:
   employer: McGill University - ELVIS Project
   title: Software Developer
   description: |
-    Created a framework for statistical analysis of music in Python, along with
-    a web interface.
+    Created a Python framework and web frontend for statistical analysis
+    of music.
   stack: [Python, Javascript]
   skills: 
   - building a framework
   - pair programming
   - documentation
+  - machine learning
   achievements:
-  - Adapted a set of isolated descriptions of music queries into a framework
-  - worked adaptively with a very non-technical client
+  - improved feedback time for music researchers by orders of magnitude
+    with a flexible tool that allowed them to define computational queries
+    without programmer assistance
+  - opened new areas of research by enabling clients to perform their own
+    exploratory data analysis
   references:
   - Christopher Antila
 - start_date: 06-09-2016
@@ -73,9 +74,7 @@ jobs:
   employer: Pivotal Software - Pivotal Labs
   title: Agile Software Engineer
   description: |
-    Consulted with client developers in continuously delivering business value in
-    manageable iterations based on feedback from a product owner, via pair
-    programming, TDD, CI/CD automation and a mature cloud platform.
+    Consulted on Agile, XP, pair programming, TDD, CI/CD, and Cloud Foundry.
   stack:
   - Java
   - Spring
@@ -103,13 +102,14 @@ jobs:
   - managing multiple deployments
   - monolith to microservices
   achievements:
-  - ramped up quickly on Java codebase, making contributions on the first day
-  - adapted a small web service into a Concourse resource for automatically
-    recommending commits for releases
-  - given an unmaintained predictive model engine, determined how to
-    treat its implementation as a black box while reverse engineering the available
-    code
-  - increased a team's release cadence from once per 6 months to once per week
+  - improved running time of a large suite of Android instrumentation tests by 30\%
+    with a mock scheduler
+  - transformed a large enterprise's production releases from a once-per-6-month
+    manual process to a once-per-week automated process by proving out
+    a CI resource for automatically recommending product-owner-approved commits
+  - rescued a replatforming effort by isolating some undocumented generated code
+    in a microservice and creating a black-box testing standard to define its
+    behaviour
   references:
   - Sam Ouimette
   - Rebecca Putinski
@@ -119,8 +119,7 @@ jobs:
   employer: Pivotal Software - Cloud Foundry
   title: Software Engineer
   description: |
-    Maintained a tool for automatically determining open source licenses being
-    used in proprietary software.
+    Maintained tools for automating legal review of open source dependencies.
   stack:
   - Ruby
   - Rails
@@ -142,11 +141,13 @@ jobs:
   - CI/CD
   - maintaining open source libraries
   achievements:
-  - ran migrations of millions of records in a highly available setting
-  - ramped up on Ruby to become an indispensable asset within a month
-  - learned BOSH in order to manage deployment of a large CI/CD system with
-    Vault alongside for secret management, running blue-green deploys with
-    smoke tests verifying integrations with an external Okta instance
+  - improved legal signoff time from weeks to days implementing a CI resource to
+    watch all our releases and automatically add tasks for them to a new Rails app
+  - reduced infrastructure costs by eliminating data duplication by orders of
+    magnitude through migrations of millions of records in a highly available setting
+  - transformed a collection of hacked-up CI pipelines into a properly transparent
+    enterprise workflow by integrating with our enterprise Okta instance and creating 
+    a BOSH-managed Vault deployment
   references:
   - Ryan Collins
   - Sameer Vohra
