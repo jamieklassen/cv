@@ -135,6 +135,7 @@ jobs:
   - Kubernetes
   - Windows
   - Powershell
+  - Concourse
   skills: 
   - managing multiple deployments
   - BDD
@@ -166,6 +167,7 @@ jobs:
   - Packer
   - AWS
   - SoapUI
+  - Vagrant
   skills: 
   - CI/CD
   - enterprise compliance requirements
