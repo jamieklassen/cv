@@ -1,29 +1,29 @@
 jobs:
-- start_date: 01-05-2011 
-  end_date: 31-08-2011
-  location: Montreal, QC
-  employer: McGill University - DDMAL
-  title: Software Developer
-  description: |
-    Built a tool to correct errors in optical music recognition, and
-    contributed to an open source library for digital sheet music.
-  stack: [C++, Python, XML]
-  skills: 
-  - coding
-  - debugging
-  - working with legacy code
-  - testing
-  - working independently
-  - user interface design
-  - maintaining open source libraries
-  achievements:
-  - cleaned over 2000 pages of optically-recognized music in a matter of weeks by
-    single-handedly adding a new feature to an unwieldy legacy desktop app in C++
-  - automated the generation of C++ library functions for handling an open
-    XML format for music encoding using a Python script that parsed the schema
-  references:
-  - Andrew Hankinson
-  - Ichiro Fujinaga
+# - start_date: 01-05-2011 
+#   end_date: 31-08-2011
+#   location: Montreal, QC
+#   employer: McGill University - DDMAL
+#   title: Software Developer
+#   description: |
+#     Built a tool to correct errors in optical music recognition, and
+#     contributed to an open source library for digital sheet music.
+#   stack: [C++, Python, XML]
+#   skills: 
+#   - coding
+#   - debugging
+#   - working with legacy code
+#   - testing
+#   - working independently
+#   - user interface design
+#   - maintaining open source libraries
+#   achievements:
+#   - cleaned over 2000 pages of optically-recognized music in a matter of weeks by
+#     single-handedly adding a new feature to an unwieldy legacy desktop app in C++
+#   - automated the generation of C++ library functions for handling an open
+#     XML format for music encoding using a Python script that parsed the schema
+#   references:
+#   - Andrew Hankinson
+#   - Ichiro Fujinaga
 - start_date: 01-07-2012
   end_date: 30-09-2013
   location: Montreal, QC
@@ -114,7 +114,7 @@ jobs:
   - Sam Ouimette
   - Rebecca Putinski
 - start_date: 29-05-2017
-  end_date: present
+  end_date: 24-11-2017
   location: Toronto, ON
   employer: Pivotal Software - Cloud Foundry
   title: Software Engineer
@@ -152,3 +152,30 @@ jobs:
   - Ryan Collins
   - Sameer Vohra
   - Felix Reyn
+- start_date: 27-11-2017
+  end_date: present
+  location: Toronto, ON
+  employer: CGI - Emerging Technology
+  title: Senior Consultant
+  description: |
+    Coached software delivery teams at a bank in lean thinking and DevOps practices.
+  stack:
+  - Jenkins
+  - Docker
+  - Chef
+  - Packer
+  - AWS
+  - SoapUI
+  skills: 
+  - CI/CD
+  - enterprise compliance requirements
+  - agile at enterprise scale
+  achievements:
+  - created a demo presentation to teach technical audiences about DevOps and automated
+    delivery
+  - developed reference architecture for a company-wide enterprise pipeline in the interest of
+    satisfying segregation-of-duties requirements
+  references:
+  - Mark Segal
+  - Adrian Maurer
+  - Betim Shahini
