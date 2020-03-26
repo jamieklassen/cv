@@ -24,50 +24,50 @@ jobs:
 #   references:
 #   - Andrew Hankinson
 #   - Ichiro Fujinaga
-- start_date: 01-07-2012
-  end_date: 30-09-2013
-  location: Montreal, QC
-  employer: McGill University - ISMI
-  title: Technical Consultant
-  description: |
-    Defined and built tools for querying a graph database of
-    scientific manuscripts.
-  stack: [Java, Python, Javascript]
-  skills: 
-  - interpreting client requirements
-  - product management
-  - remote collaboration
-  - web services/APIs
-  - unconventional programming models
-  - graph database semantics
-  achievements:
-  - facilitated an infinite variety of queries through a graph faceted search
-  - exposed valuable metadata by adding features to an existing document viewer
-  references:
-  - Andrew Hankinson
-  - Jamil Ragep
-- start_date: 01-07-2012
-  end_date: 30-09-2013
-  location: Montreal, QC
-  employer: McGill University - ELVIS Project
-  title: Software Developer
-  description: |
-    Created a Python framework and web frontend for statistical analysis
-    of music.
-  stack: [Python, Javascript]
-  skills: 
-  - building a framework
-  - pair programming
-  - documentation
-  - machine learning
-  achievements:
-  - improved feedback time for music researchers by orders of magnitude
-    with a flexible tool that allowed them to define computational queries
-    without programmer assistance
-  - opened new areas of research by enabling clients to perform their own
-    exploratory data analysis
-  references:
-  - Christopher Antila
+# - start_date: 01-07-2012
+#   end_date: 30-09-2013
+#   location: Montreal, QC
+#   employer: McGill University - ISMI
+#   title: Technical Consultant
+#   description: |
+#     Defined and built tools for querying a graph database of
+#     scientific manuscripts.
+#   stack: [Java, Python, Javascript]
+#   skills: 
+#   - interpreting client requirements
+#   - product management
+#   - remote collaboration
+#   - web services/APIs
+#   - unconventional programming models
+#   - graph database semantics
+#   achievements:
+#   - facilitated an infinite variety of queries through a graph faceted search
+#   - exposed valuable metadata by adding features to an existing document viewer
+#   references:
+#   - Andrew Hankinson
+#   - Jamil Ragep
+# - start_date: 01-07-2012
+#   end_date: 30-09-2013
+#   location: Montreal, QC
+#   employer: McGill University - ELVIS Project
+#   title: Software Developer
+#   description: |
+#     Created a Python framework and web frontend for statistical analysis
+#     of music.
+#   stack: [Python, Javascript]
+#   skills: 
+#   - building a framework
+#   - pair programming
+#   - documentation
+#   - machine learning
+#   achievements:
+#   - improved feedback time for music researchers by orders of magnitude
+#     with a flexible tool that allowed them to define computational queries
+#     without programmer assistance
+#   - opened new areas of research by enabling clients to perform their own
+#     exploratory data analysis
+#   references:
+#   - Christopher Antila
 - start_date: 06-09-2016
   end_date: 26-05-2017
   location: Toronto, ON
@@ -94,12 +94,7 @@ jobs:
   - pair programming
   - TDD
   - consulting
-  - build
-  - test
-  - deployment
-  - automation
   - CI/CD
-  - managing multiple deployments
   - monolith to microservices
   achievements:
   - improved running time of a large suite of Android instrumentation tests by 30\%
@@ -137,10 +132,9 @@ jobs:
   - Powershell
   - Concourse
   skills: 
-  - managing multiple deployments
   - BDD
   - CI/CD
-  - maintaining open source libraries
+  - maintaining open source software
   achievements:
   - improved legal signoff time from weeks to days implementing a CI resource to
     watch all our releases and automatically add tasks for them to a new Rails app
@@ -154,7 +148,7 @@ jobs:
   - Sameer Vohra
   - Felix Reyn
 - start_date: 27-11-2017
-  end_date: present
+  end_date: 18-05-2018
   location: Toronto, ON
   employer: CGI - Emerging Technology
   title: Senior Consultant
@@ -168,6 +162,8 @@ jobs:
   - AWS
   - SoapUI
   - Vagrant
+  - Grafana
+  - Prometheus
   skills: 
   - CI/CD
   - enterprise compliance requirements
@@ -181,3 +177,54 @@ jobs:
   - Mark Segal
   - Adrian Maurer
   - Betim Shahini
+- start_date: 22-08-2018
+  end_date: Present
+  location: Toronto, ON
+  employer: VMware Tanzu
+  title: Senior Software Engineer/MTS III
+  description: |
+    Concourse CI - https://github.com/concourse
+  stack:
+  - BOSH
+  - Terraform
+  - GCP
+  - Linux
+  - Containers
+  - Go
+  - Elm
+  - Kubernetes
+  - Postgres
+  - Distributed systems
+  - Pagerduty
+  - Datadog
+  - InfluxDB
+  - Grafana
+  - Prometheus
+  - Helm
+  - vim
+  - functional programming
+  skills: 
+  - operating production systems
+  - managing SLOs
+  - delivering enterprise software
+  - triaging and responding to OSS issues
+  - guiding OSS contributors
+  - breaking down and determining requirements
+  - mentoring new team members
+  - direct customer support
+  achievements:
+  - after leading a major refactoring (including backfilling over 2000 unit tests),
+    the project received several significant PRs to the Elm codebase from the
+    community -- the first such PRs in the project's history
+  - cut cycle time for a release in half by parallelizing integration tests and
+    replacing them with faster, focused, reproducible unit tests where appropriate
+  - eliminated the bus factor in our release engineering process - after my work
+    on tracking, documenting and automating releases, every team member has
+    anchored at least one release
+  - enabled multiple clean code champions within the office by designing and
+    co-facilitating a series of workshops on improving testing and architecture
+    in legacy codebases
+  references:
+  - Sameer Vohra
+  - Dwayne Forde
+  - Alex Suraci
